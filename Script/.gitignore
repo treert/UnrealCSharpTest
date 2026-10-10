@@ -1,0 +1,25 @@
+# UnrealCSharp: 本目录大部分内容由 Generate Code 自动生成，仅跟踪 Game 下的手写脚本
+
+# 生成缓存 / 绑定缓存
+/Binds.Cache
+/Binds.Cache.Headers
+/Shared.props
+/Script.sln
+
+# 插件管理/自动生成的工程（Generate Code 会重建）
+/CodeAnalysis/
+/Interop/
+/SourceGenerator/
+/Weavers/
+/UE/
+
+# IDE
+/.idea/
+
+# Game 工程：仅保留手写代码，忽略生成产物
+/Game/obj/
+/Game/Proxy/
+/Game/Game.csproj
+/Game/Game.props
+/Game/FodyWeavers.xml
+/Game/FodyWeavers.xsd
